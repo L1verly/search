@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@800&display=swap');
+
 form {
     position: absolute;
     top: 50%;
     bottom: 50%;
-    left:50%;
+    left: 50%;
     margin-right: -50%;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     transform: translate(-50%, -50%)
 }
 
+#searchbar,
+#searchbtn {
+    border-radius: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
 
+#img:hover,
+#adv:hover {
+    color: aqua;
+    transition: 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
 
+.btn {
+    border: none;
+}
