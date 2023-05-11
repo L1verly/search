@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar mb-5">
         <div class="container-fluid">
             <div class="navbar-brand"></div>
             <div class="d-flex flex-row-reverse">
@@ -21,16 +21,52 @@
             </div>
         </div>
     </nav>
-    <form action="https://google.com/search" class="container" role="search">
-        <div class="container">
-            <div class="d-flex justify-content-center mb-3">
-                <div class="col-10 col-lg-6">
-                    <input class="form-control form-control-lg" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="" role="search" spellcheck="false" title="Search" id="searchbar" name="q">
+    <form action="https://google.com/search" role="search">
+        <div class="" id="container">
+            <div class="d-flex flex-column">
+                <p>Find pages with:</p>
+                <div class="row g-2">
+                    <div class="col-auto">
+
+                        <label for="allTheseWords" class="col-form-label">all these words:</label>
+                    </div>
+                    <div class="col-auto">
+
+                        <input class="form-control form-control-lg mb-2" autocapitalize="off" autocomplete="off"
+                            autocorrect="off" autofocus="on" role="search" spellcheck="false" title="Search"
+                            id="allTheseWords" name="q">
+                    </div>
                 </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="col-md-3 col-lg-2">
-                    <input class="form-control form-control-md" type="submit" title="Search" id="searchbtn" value="Google Search">
+                <div class="row g-2">
+                    <div class="col-auto">
+                        <label for="exactWord" class="col-form-label">this exact word or phrase:</label>
+                    </div>
+                    <div class="col-auto">
+                        <input class="form-control form-control-lg mb-2" autocapitalize="off" autocomplete="off"
+                            autocorrect="off" role="search" spellcheck="false" title="Search" id="exactWord" name="q">
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-auto">
+                        <label for="anyWords" class="col-form-label">any of these words:</label>
+                    </div>
+                    <div class="col-auto">
+                        <input class="form-control form-control-lg mb-2" autocapitalize="off" autocomplete="off"
+                            autocorrect="off" role="search" spellcheck="false" title="Search" id="anyWords" name="q">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-auto">
+                        <label for="noneWords" class="col-form-label">none of these words:</label>
+                    </div>
+                    <div class="col-auto">
+                        <input class="form-control form-control-lg mb-2" autocapitalize="off" autocomplete="off"
+                            autocorrect="off" role="search" spellcheck="false" title="Search" id="noneWords" name="q">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <input class="btn btn-primary" type="submit" title="Search" id="advsearchbtn"
+                        value="Advanced Search">
                 </div>
             </div>
         </div>
