@@ -17,7 +17,7 @@
 
 #img:hover,
 #adv:hover {
-    color: aqua;
+    color: #0a58ca;
     transition: 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -29,4 +29,14 @@
 #container {
     width:600px;
     margin-left: 4rem;
+}
+
+label {
+    display: inline-block;
+    width:200px;
+    text-align: left;
+}
+
+.sqrborder, #advsearchbtn {
+    border-radius: 0% !important;
 }
