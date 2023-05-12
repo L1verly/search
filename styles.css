@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@800&display=swap');
-
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 .form {
     position: absolute;
     top: 50%;
@@ -9,10 +11,17 @@
     transform: translate(-50%, -50%)
 }
 
-#searchbar,
-#searchbtn {
+img {
+    position: absolute;
+    top: 41%;
+    bottom: 59%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#searchbar
+ {
     border-radius: 2rem;
-    font-family: 'Open Sans', sans-serif;
 }
 
 #img:hover,
@@ -37,6 +46,8 @@ label {
     text-align: left;
 }
 
-.sqrborder, #advsearchbtn {
+.sqrborder, #advsearchbtn, #searchbtn {
     border-radius: 0% !important;
+    border:none;
+    background-color: #f8f9fa;
 }
