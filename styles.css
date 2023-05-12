@@ -30,11 +30,6 @@ img {
     transition: 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.btn {
-    border: none;
-    
-}
-
 #container {
     width:600px;
     margin-left: 4rem;
@@ -46,8 +41,12 @@ label {
     text-align: left;
 }
 
-.sqrborder, #advsearchbtn, #searchbtn {
+.sqrborder, #searchbtn {
     border-radius: 0% !important;
     border:none;
     background-color: #f8f9fa;
+}
+
+#advsearchbtn {
+    border-radius: 0% !important;
 }
