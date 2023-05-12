@@ -11,7 +11,7 @@ body {
     transform: translate(-50%, -50%)
 }
 
-img {
+.img-main {
     position: absolute;
     top: 41%;
     bottom: 59%;
@@ -19,6 +19,7 @@ img {
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+
 #searchbar
  {
     border-radius: 2rem;
@@ -49,4 +50,9 @@ label {
 
 #advsearchbtn {
     border-radius: 0% !important;
+}
+
+#advImg {
+    width: 136px !important;
+    height: 46px !important;
 }
